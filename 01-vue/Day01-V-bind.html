@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>v-bind</title>
+</head>
+<body>
+     <div id="app">
+         <img v-bind:src="url" alt="">
+         <h1>{{message}}</h1>
+     </div>
+     <img url="https://www.baidu.com/link?url=xwL-6h9LLaSaxUDN4k_Mp_7o8_Rm-NaOhMPlampHsg0mSwJDeqD8vl15fnKClq4zqajUmbl7DYhknqPYPww1QJFjRcrq8WEZzeRCfA_e-e_Sno8bmLbM7Qo9_zpN2L4R-jdpM24zlrxF_M0gVEKi26MHe7_ZD5YMEZ5lDMQtiAZnbOLKhFnUPxVyuE_DaqJZ0VFdMEf0PP529A0iyCwZrgwpavOlr11nmbOjEgEjkVC8fEBldNTq5hVsI_zbNZGRmjE7RIgzKUlkhkZZpBVb4Ogp3SEdFds6opUPjVxv-yvJXKsX_dEFd_sQP-ZNXH3fqWXokpMgyqhAk6qucql68cxJInDmhfPZNL71m2IZQiE_Ie4Zs2mD9GBCml9jkmW1n6cnD1WqaP2NQxAopsOdttOnIr5gQQkPUC3BOxIi42nNYIrvXv2YVraecyTpgotDMUxWcR7ErqzMZp7NV137pHAFjz4yuqjS19-hI9pbEo5zbIlSRoR9cITubGVXDrKGnsYt7fVvqraUu2t5Zbi3Bj1LsrnLqRZO4EUbc4VO63uzEbPaVdGRW5LnUvOiyim4RJqPFw_h5l3JGDG6mxhCBRunyVRAK16ckfpLWygmnaW&timg=https%3A%2F%2Fss0.bdstatic.com%2F94oJfD_bAAcT8t7mm9GUKT-xh_%2Ftimg%3Fimage%26quality%3D100%26size%3Db4000_4000%26sec%3D1604657323%26di%3D529c8eac20f00a9ff2f3ce7ef500b287%26src%3Dhttp%3A%2F%2Fa3.att.hudong.com%2F64%2F52%2F01300000407527124482522224765.jpg&click_t=1604657682187&s_info=750_695&wd=&eqid=edc77bce00006491000000055fa520aa" alt="">
+     <script src="../js/vue.js"></script>
+     <script>
+         let vue = new Vue({
+             el:"#app",
+             data:{
+                 message:'你好',
+                 url:'https://www.baidu.com/link?url=xwL-6h9LLaSaxUDN4k_Mp_7o8_Rm-NaOhMPlampHsg0mSwJDeqD8vl15fnKClq4zqajUmbl7DYhknqPYPww1QJFjRcrq8WEZzeRCfA_e-e_Sno8bmLbM7Qo9_zpN2L4R-jdpM24zlrxF_M0gVEKi26MHe7_ZD5YMEZ5lDMQtiAZnbOLKhFnUPxVyuE_DaqJZ0VFdMEf0PP529A0iyCwZrgwpavOlr11nmbOjEgEjkVC8fEBldNTq5hVsI_zbNZGRmjE7RIgzKUlkhkZZpBVb4Ogp3SEdFds6opUPjVxv-yvJXKsX_dEFd_sQP-ZNXH3fqWXokpMgyqhAk6qucql68cxJInDmhfPZNL71m2IZQiE_Ie4Zs2mD9GBCml9jkmW1n6cnD1WqaP2NQxAopsOdttOnIr5gQQkPUC3BOxIi42nNYIrvXv2YVraecyTpgotDMUxWcR7ErqzMZp7NV137pHAFjz4yuqjS19-hI9pbEo5zbIlSRoR9cITubGVXDrKGnsYt7fVvqraUu2t5Zbi3Bj1LsrnLqRZO4EUbc4VO63uzEbPaVdGRW5LnUvOiyim4RJqPFw_h5l3JGDG6mxhCBRunyVRAK16ckfpLWygmnaW&timg=https%3A%2F%2Fss0.bdstatic.com%2F94oJfD_bAAcT8t7mm9GUKT-xh_%2Ftimg%3Fimage%26quality%3D100%26size%3Db4000_4000%26sec%3D1604657323%26di%3D529c8eac20f00a9ff2f3ce7ef500b287%26src%3Dhttp%3A%2F%2Fa3.att.hudong.com%2F64%2F52%2F01300000407527124482522224765.jpg&click_t=1604657331771&s_info=750_695&wd=&eqid=edc77bce00006491000000055fa520aa'
+             },
+             methods:{
+             }
+         });
+     </script>
+</body>
+</html>
