@@ -7,12 +7,21 @@
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:prod" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d60ab988-3af3-4dbd-830b-123bd86c7a08" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2020_11_9_15_31_[Default_Changelist]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2020_11_9_15_31__Default_Changelist_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2020_11_9_15_32_[Default_Changelist]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2020_11_9_15_32__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-vue/Day01-counter.html" beforeDir="false" afterPath="$PROJECT_DIR$/01-vue/Day01-counter.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +36,24 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="prod" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="prod" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1gzR1txqJkkM9y5kK5kDnMXho8X" />
@@ -59,8 +86,16 @@
       <updated>1599115223682</updated>
       <workItem from="1599115224946" duration="1584000" />
       <workItem from="1604651654023" duration="6156000" />
-      <workItem from="1604904720217" duration="647000" />
+      <workItem from="1604904720217" duration="821000" />
     </task>
+    <task id="LOCAL-00001" summary="新增变化">
+      <created>1604905418254</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604905418254</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -71,11 +106,28 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="prod" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="新增变化" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增变化" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604651875747">
@@ -90,10 +142,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="0" y="60" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1604905260184" />
-    <state x="239" y="145" key="Vcs.Push.Dialog.v2" timestamp="1604904970979">
+    <state x="239" y="145" key="Vcs.Push.Dialog.v2" timestamp="1604907307652">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="239" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1604904970979" />
+    <state x="239" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1604907307652" />
     <state x="125" y="100" width="1042" height="624" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1604904936680">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
