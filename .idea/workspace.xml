@@ -10,9 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d60ab988-3af3-4dbd-830b-123bd86c7a08" name="Default Changelist" comment="">
+    <list default="true" id="d60ab988-3af3-4dbd-830b-123bd86c7a08" name="Default Changelist" comment="新增变化">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-vue/Day01-counter.html" beforeDir="false" afterPath="$PROJECT_DIR$/01-vue/Day01-counter.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-vue/HelloVue.html" beforeDir="false" afterPath="$PROJECT_DIR$/01-vue/HelloVue.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +27,24 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="prod" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="dev" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1gzR1txqJkkM9y5kK5kDnMXho8X" />
@@ -59,8 +77,16 @@
       <updated>1599115223682</updated>
       <workItem from="1599115224946" duration="1584000" />
       <workItem from="1604651654023" duration="6156000" />
-      <workItem from="1604904720217" duration="647000" />
+      <workItem from="1604904720217" duration="821000" />
     </task>
+    <task id="LOCAL-00001" summary="新增变化">
+      <created>1604905418254</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604905418254</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -76,6 +102,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="新增变化" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增变化" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604651875747">
